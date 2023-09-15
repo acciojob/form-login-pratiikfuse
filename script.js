@@ -5,6 +5,6 @@ function getFormvalue() {
 
 	let firstname = childrens[0].value;
 	let secondname = childrens[0].value;
-	alert(firstname+" "+lastname);
+	alert(firstname+" "+secondname);
 
 }
