@@ -1,10 +1,8 @@
 function getFormvalue() {
     //Write your code here
 	let form1 = document.getElementById('form1');
-	let childrens = form1.childNodes;
+	let firstName = document.getElementsByName("fname")[0].value;
+	let lastName = document.getElementsByName("lname")[0].value;
 
-	let firstname = childrens[0].value;
-	let secondname = childrens[1].value;
-	alert(firstname+" "+secondname);
-
+	alert(firstName+" "+lastName);
 }
